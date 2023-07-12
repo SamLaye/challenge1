@@ -1,0 +1,67 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body, #btnSubmit, #dismiss{
+	background-color: #200935;
+}
+.form{
+	width: 85%;
+}
+li{
+	list-style-type: none;
+}
+.list-puce{
+	background-color: #ff6155;
+}
+small{
+	color: #e43545;
+}
+button:hover{
+	background-image: linear-gradient(to right, #d74860, #df9e39);
+}
+#confirmation{
+	width: 40%;
+}
+@media screen and (max-width: 430px){
+	#confirmation{
+	width: 100%;
+	}
+	#confirmation h3{
+		font-size: 20px;
+	}
+	#confirmation p{
+		font-size: 16px;
+	}
+	#confirmation #dismiss{
+		font-size: 16px;
+	}
+}
+@media screen and (max-width: 360px){
+
+	#formulaire{
+		font-size: 14px;
+	}
+	#error{
+		font-size: 12px;
+	}
+	#label{
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 550px){
+	#confirmation{
+	width: 80%;
+	}
+}
+@media screen and (min-width: 551px) and (max-width: 774px){
+	#confirmation{
+	width: 60%;
+	}
+}
+@media screen and (min-width: 775px) and (max-width: 992px){
+	#confirmation{
+	width: 70%;
+	}
+}
